@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BKT | Parliamentary and Government Training</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      background-color: #f4f6f9;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+      background-color: #002244;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: #e0ebf5;
+      padding: 4rem 2rem;
+      text-align: center;
+      animation: slideUp 1s ease-out;
+    }
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .hero h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      color: #002244;
+    }
+    .section {
+      padding: 2rem;
+      background: white;
+      margin: 1rem auto;
+      max-width: 1000px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      animation: fadeIn 1s ease-in;
+    }
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .btn {
+      background: #004b8d;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+    form button {
+      padding: 0.7rem 1.2rem;
+      background-color: #004b8d;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .payment-box {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin: 0;">BKT</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+      <a href="#payment">Payment</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Empowering Governance through Knowledge</h1>
+    <p>Specialized training for parliamentarians and government institutions to improve transparency and leadership.</p>
+    <a class="btn" href="#courses">Explore Courses</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About BKT</h2>
+    <p><strong>Mission:</strong> To empower parliamentarians and government officials with the knowledge, skills, and tools needed to enhance governance, promote transparency, and foster inclusive development.</p>
+    <p><strong>Core Values:</strong> Excellence, Integrity, Inclusivity, Innovation, Collaboration.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Core Services</h2>
+    <ul>
+      <li>Parliamentary Training Programs</li>
+      <li>Governmental Training Programs</li>
+      <li>Workshops and Seminars</li>
+      <li>Consulting Services</li>
+    </ul>
+    <p><strong>Industries Served:</strong> Parliamentary Institutions, Government Agencies, International Organizations</p>
+  </section>
+
+  <section id="courses" class="section">
+    <h2>Professional Training Courses</h2>
+    <ul>
+      <li>Foundations of Parliamentary Governance</li>
+      <li>Parliamentary Procedures and Practices</li>
+      <li>Leadership and Communication Skills</li>
+      <li>Contemporary Issues in Governance</li>
+      <li>Advanced Topics and Specialized Training</li>
+    </ul>
+    <p>On-demand or customized training is available. Courses include insights from current and former congressmen and parliamentarians.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p><strong>Contact Person:</strong> Kofi Obeng, Managing Partner</p>
+    <p>MBA (Finance), PhD. (Dev. Economics), CISA</p>
+    <p><strong>Phone:</strong> 1-771-205-3067</p>
+    <p><strong>Address:</strong> 14740 4th Street, Suite 303, Laurel, MD, 20707</p>
+  </section>
+
+  <section id="payment" class="section">
+    <h2>Make a Payment</h2>
+    <div class="payment-box">
+      <p>Click below to securely pay via Stripe.</p>
+      <a class="btn" href="https://buy.stripe.com/test_00g6ozbB0drXgSA6op">Pay with Stripe</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BKT – Building Knowledge Together</p>
+  </footer>
+</body>
+</html>
